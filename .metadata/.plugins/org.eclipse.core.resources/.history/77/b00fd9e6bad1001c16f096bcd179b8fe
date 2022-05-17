@@ -1,0 +1,42 @@
+package variousConcepts;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LearnDropDown {
+
+	WebDriver driver;
+
+	@Before
+	public void init() {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Owner\\DecemberQA2021_Selenium\\crm\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().deleteAllCookies(); // before going to the website, I need to have this delete cookies
+		driver.get("https://techfios.com/billing/?ng=admin");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); // asking the browser to wait
+
+	}
+
+	@Test
+	public void logInTest() {
+
+		// Storing WebElement Library using By Class
+
+		By USER_NAME_FIELD = By.xpath("//*[@id=\"username\"]");
+		By PASSWORD_FIELD = By.xpath("//*[@id=\"password\"]");
+		By SIGNIN_BUTTON_FIELD = By.xpath("/html/body/div/div/div/form/div[3]/button");
+		By CUSTOMER_MENU_FIELD = By.xpath("//*[@id=\"side-menu\"]/li[3]/a/span[1]");
+		By ADD_CUSTOMER_MENU_FIELD = By.xpath("//*[@id=\"side-menu\"]/li[3]/ul/li[1]/a");
+		By COMPANY_DROPDOWN_FIELD = By.xpath("//*[@id=\"cid\"]");
+
+	}
+
+}

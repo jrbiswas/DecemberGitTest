@@ -1,0 +1,25 @@
+package variousConcepts;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LearnDropDown {
+	
+	WebDriver driver;
+	
+	@Test
+	public void init() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\DecemberQA2021_Selenium\\Session4\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+
+		
+		
+		
+	}
+	
+	
+	
+
+}

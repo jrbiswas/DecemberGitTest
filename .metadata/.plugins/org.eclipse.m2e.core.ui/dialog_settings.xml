@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\crm\driver\chromedriver.exe"/>
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\BankCash\src\main\java\com\techfios\BankCash"/>
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\crm\driver"/>
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\crm"/>
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\crm\pom.xml"/>
+			<item value="C:\Users\Owner\DecemberQA2021_Selenium\1st_Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.techfios.Session5_Part2"/>
+			<item value="com.techfios.Session5"/>
+			<item value="com.techfios.Session4"/>
+			<item value="com.techfios.session3"/>
+			<item value="com.techfios.Session2"/>
+			<item value="com.techfios.crm"/>
+			<item value="com.techfios.BankCash"/>
+			<item value="com.techfios.sales"/>
+		</list>
+		<list key="groupId">
+			<item value="com.techfios"/>
+		</list>
+		<list key="artifactId">
+			<item value="Session5_Part2"/>
+			<item value="Session5"/>
+			<item value="Session4"/>
+			<item value="session3"/>
+			<item value="Session2"/>
+			<item value="crm"/>
+			<item value="BankCash"/>
+			<item value="sales"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

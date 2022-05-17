@@ -1,0 +1,27 @@
+package bank_cash;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment_Selenium_1 {
+	
+	
+	WebDriver driver;
+	
+ @Test
+	public void init() throws InterruptedException {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\DecemberQA2021_Selenium\\crm\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().deleteAllCookies(); // before going to the website, I need to have this delete cookies
+		driver.get("https://techfios.com/billing/?ng=dashboard");
+		driver.manage().window().maximize(); // maximize the window
+		Thread.sleep(4000);
+	}
+	
+	
+
+}
